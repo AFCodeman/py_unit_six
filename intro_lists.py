@@ -4,7 +4,7 @@ def swap(list_one):
     :param list_one: a list of at least two elements
     :return: the same list with the first and last elements swapped
     """
-    pass # make sure to remove this line before beginning work on this function
+
 
 
 def rotate_left(list_one):
