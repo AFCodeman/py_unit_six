@@ -36,7 +36,12 @@ def max_end(list_one):
     if x>y:
         list_one[0]=x
         list_one[1]=x
+        list_one[-1]=x
+        return list_one
     elif x<y:
-        return list_one[]
+        list_one[0]=y
+        list_one[1]=y
+        list_one[-1]=y
+        return list_one
     else:
         return list_one[0:-1]
