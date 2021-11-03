@@ -5,7 +5,11 @@ def add_numbers(numbers):
     :param numbers: a list of numbers
     :return: the sum of all the numbers in the list
     """
-    pass # remove this line when starting your function
+    sum = 0
+    for number in numbers:
+        sum + number
+    return sum
+
 
 def get_max(numbers):
     """
@@ -13,7 +17,7 @@ def get_max(numbers):
     :param numbers: a list of numbers
     :return: The largest number in the list
     """
-    pass # remove this line when starting your function
+    pass # remove this line when starting your functio
 
 def get_min(numbers):
     """
