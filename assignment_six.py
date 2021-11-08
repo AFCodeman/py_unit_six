@@ -2,14 +2,14 @@ import random
 
 def get_birthdays():
     list = []
-    for x in range (23):
+    for x in range(24):
         x=random.randint(1, 366)
         list.append(x)
     return list
 
 def is_duplicates(list):
-    for x in range(22):
-        for y in range (x+1,23):
+    for x in range(len(list)-1):
+        for y in range(x+1,24):
             if list[x]==list[y]:
                 return True
     else:
