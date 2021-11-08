@@ -9,7 +9,7 @@ def get_birthdays():
 
 def is_duplicates(list):
     for x in range(len(list)-1):
-        for y in range(x+1,24):
+        for y in range(x+1,len(list)):
             if list[x]==list[y]:
                 return True
     else:
